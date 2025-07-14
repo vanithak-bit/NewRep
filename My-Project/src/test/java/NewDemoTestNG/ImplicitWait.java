@@ -36,7 +36,7 @@ public void testImplicitWait()
 	Assert.assertEquals(myDynamicElement.getText(), "Hello World!", "Message is not Hello world");
 	System.out.println("Hi, fetch from GitHub");
 	System.out.println("Hi, Push from Master");
-	System.out.println("Hi, pull from Github");
+	System.out.println("Hi, pull from Github, new changes");
 }
 
 
