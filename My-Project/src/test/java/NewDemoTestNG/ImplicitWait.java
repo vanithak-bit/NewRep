@@ -34,6 +34,7 @@ public void testImplicitWait()
 	driver.findElement(By.xpath("//div[@id='start']/button")).click();
 	WebElement myDynamicElement = driver.findElement(By.xpath("//div[@id='finish']"));
 	Assert.assertEquals(myDynamicElement.getText(), "Hello World!", "Message is not Hello world");
+	System.out.println("Hi, fetch from GitHub");
 }
 
 
